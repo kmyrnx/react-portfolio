@@ -1,0 +1,28 @@
+@use "../scss/variables" as v;
+
+.tag {
+  margin: 0.5em;
+  background: v.$tag-background-color;
+  color: v.$tag-text-color;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
+
+  &:active,
+  &.selected {
+    background-color: v.$tag-text-color;
+    color: v.$tag-background-color;
+  }
+
+  button {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2em;
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

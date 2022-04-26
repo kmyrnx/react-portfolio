@@ -1,0 +1,22 @@
+@use "../scss/variables" as v;
+
+.search-box {
+  margin-top: 3em;
+}
+
+input#search {
+  box-sizing: border-box;
+  display: block;
+  width: 50vw;
+  margin: auto;
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 1.5em;
+  border: 0.2em solid v.$search-box-border-color;
+  border-radius: 15px;
+  outline: none;
+
+  @media screen and (max-width: v.$container-max-width) {
+    width: 80%;
+  }
+}

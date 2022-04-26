@@ -1,0 +1,47 @@
+@use "../scss/variables" as v;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid v.$search-box-border-color;
+  border-radius: 10px;
+  flex: 0 0 300px;
+
+  .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 200px;
+
+    > img {
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+
+  .card-content {
+    padding: 0 0 0 0.5em;
+
+    p {
+      color: rgb(85, 85, 85);
+    }
+  }
+
+  .card-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0.5em;
+    padding: 0 0 0.5em 0.5em;
+
+    span {
+      background: v.$tag-background-color;
+      color: v.$tag-text-color;
+      padding: 3px 5px 3px 5px;
+      border-radius: 5px;
+    }
+  }
+}

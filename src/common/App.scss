@@ -1,0 +1,29 @@
+@use "../scss/variables" as v;
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-family: "Roboto Slab", serif;
+  background-color: v.$header-background;
+  width: 100%;
+  box-shadow: 0 5px 15px v.$header-shadow-color;
+  z-index: 1;
+  position: relative;
+}
+
+.content {
+  background-color: v.$body-background;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  min-width: v.$min-width;
+  width: 70vw;
+  margin: 0 auto;
+}

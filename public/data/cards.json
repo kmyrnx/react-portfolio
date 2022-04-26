@@ -1,0 +1,54 @@
+[
+  {
+    "key": "portfolio",
+    "title": "Portfolio",
+    "image": "../static/imgs/cards/card1.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vehicula semper. Donec turpis dolor, ultrices sit amet maximus fringilla.",
+    "tags": [
+      "JS",
+      "React",
+      "Web"
+    ]
+  },
+  {
+    "key": "corporate-website",
+    "title": "Corporate Website",
+    "image": "../static/imgs/cards/card5.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vehicula semper. Donec turpis dolor, ultrices sit amet maximus fringilla.",
+    "tags": [
+      "Node.js",
+      "API",
+      "Web"
+    ]
+  },
+  {
+    "key": "healthcare-info-system",
+    "title": "Healthcare Information System",
+    "image": "../static/imgs/cards/card3.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vehicula semper. Donec turpis dolor, ultrices sit amet maximus fringilla.",
+    "tags": [
+      "Node.js",
+      "API"
+    ]
+  },
+  {
+    "key": "tic-tac-toe-game",
+    "title": "Tic-Tac-Toe Game",
+    "image": "../static/imgs/cards/card4.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vehicula semper. Donec turpis dolor, ultrices sit amet maximus fringilla.",
+    "tags": [
+      "JS",
+      "React"
+    ]
+  },
+  {
+    "key": "photo-gallery",
+    "title": "Photo Gallery",
+    "image": "../static/imgs/cards/card2.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra vehicula semper. Donec turpis dolor, ultrices sit amet maximus fringilla.",
+    "tags": [
+      "API",
+      "React"
+    ]
+  }
+]
